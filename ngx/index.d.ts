@@ -32,6 +32,6 @@ export declare class ImageSave extends IonicNativePlugin {
 export declare type SuccessCallback<T> = (result?: T) => void;
 export declare type ErrorCallback<T> = (result?: T) => void;
 export interface ImageSaveOptions {
-    imageList: string;
+    imageUrl: string;
     albumName: string;
 }
