@@ -27,7 +27,7 @@ export declare class ImageSaveOriginal extends IonicNativePlugin {
      * @param arg2 {number} Another param to configure something
      * @return {Promise<any>} Returns a promise that resolves when something happens
      */
-    saveToAlbum(options: ImageSaveOptions, success?: SuccessCallback<any>, error?: ErrorCallback<any>): Promise<any>;
+    saveToAlbum(options: string, success?: SuccessCallback<any>, error?: ErrorCallback<any>): Promise<any>;
 }
 export declare type SuccessCallback<T> = (result?: T) => void;
 export declare type ErrorCallback<T> = (result?: T) => void;
